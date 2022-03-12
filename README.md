@@ -19,7 +19,7 @@ helm upgrade --install gitlab gitlab/gitlab \
   --set certmanager-issuer.email=email@example.com
 kubectl --address <ip> port-forwardservice/gitlab-webservice-default 8181:8181 &
 ```
-[reference](https://mrs.felk.cvut.cz/gitlab/help/install/kubernetes/gitlab_chart.md)
+[reference](https://docs.gitlab.com/charts/installation/deployment.html#deploy-using-helm)
 
 After some tweaking, I arrived at the above commands and all's well that ends well.
 
