@@ -1,4 +1,4 @@
-resource "helm_realease" "gitlab" {
+resource "helm_release" "gitlab" {
     name       = "gitlab"
     repository = "https://charts.gitlab.io"
     chart      = "gitlab"
