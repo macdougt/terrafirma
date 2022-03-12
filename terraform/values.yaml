@@ -1,0 +1,6 @@
+global:
+  hosts:
+    domain:
+    externalIP: 10.10.10.10
+certmanager-issuer:
+  email: email@example.com
