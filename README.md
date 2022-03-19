@@ -20,7 +20,7 @@ helm upgrade --install gitlab gitlab/gitlab \
 kubectl --address <ip> port-forwardservice/gitlab-webservice-default 8181:8181 &
 ```
 
-[reference](https://docs.gitlab.com/charts/installation/deployment.html#deploy-using-helm)
+[Reference](https://docs.gitlab.com/charts/installation/deployment.html#deploy-using-helm)
 
 After some tweaking, I arrived at the above commands and all's well that ends well.
 
@@ -95,6 +95,6 @@ ls -R *.yaml *.tpl | xargs wc -l
       21 initdb-configmap.yaml
       88 upgrade_check_hook.yaml
     2911 total
-    ```
+```
 
 [kube-dump](https://github.com/WoozyMasta/kube-dump) can be used to ascertain the content generated for kubernetes.
