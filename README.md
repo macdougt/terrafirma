@@ -96,3 +96,5 @@ ls -R *.yaml *.tpl | xargs wc -l
       88 upgrade_check_hook.yaml
     2911 total
     ```
+
+[kube-dump](https://github.com/WoozyMasta/kube-dump) can be used to ascertain the content generated for kubernetes.
