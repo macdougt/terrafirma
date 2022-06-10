@@ -34,3 +34,5 @@ resource "aws_kinesisanalyticsv2_application" "example" {
  - This will create a new `terraform.tfstate` file with the current state found in AWS
  - Perform `terraform state list` which should print your resource: `aws_kinesisanalyticsv2_application.example`
  - Finally perform `terraform state show aws_kinesisanalyticsv2_application.example` which will provide you with the full terraform configuration, this can be used to write much better terraform artifacts that build your pipeline incrementally (using variables, and existing artifact references)
+
+Use [terraform documentation](https://registry.terraform.io/providers/hashicorp/aws/latest/docs) for reference.
