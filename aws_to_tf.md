@@ -1,4 +1,4 @@
-## How to transform AWS resources to usable terraform
+## How to transform existing AWS resources to usable terraform
 
 Simple process that can be extended and automated:
 
